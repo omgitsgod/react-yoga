@@ -11,6 +11,24 @@
   background-size: cover;
 }
 
+.location {
+  background-image: url(./location.JPG);
+  background-size: cover;
+}
+
+
+.mapouter {
+  text-align:right;
+  height:300px;
+  width:400px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:300px;
+  width:400px;
+}
 .App {
   text-align: center;
 

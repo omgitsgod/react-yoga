@@ -38,3 +38,16 @@
   opacity: 0.7;
   border: 1px;
 }
+.nav {
+  background-color: rgb(43, 43, 43);
+  opacity: 0.4;
+
+}
+.nav:hover{
+
+  opacity: 0.8;
+}
+
+h2 {
+  color: white;
+}

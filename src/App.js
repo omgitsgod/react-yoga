@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './Home'
+import Schedule from './Schedule'
 import { Tab, Tabs, Typography} from '@material-ui/core'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       view = <Home />
       break
       case "Schedule":
-      view = <Home />
+      view = <Schedule />
       break
       case "Prices":
       view = <Home />
@@ -47,7 +48,7 @@ function App() {
       <Tab value={"Bio"} label=<h2>Bio</h2> />
 
     </Tabs>
-    <Home />
+    {view}
     </div>
   );
 }

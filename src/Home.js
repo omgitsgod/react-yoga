@@ -6,7 +6,7 @@ import {mdiInstagram} from '@mdi/js'
 
 function Home() {
   return (
-    <div className="lala" >
+    <div className="home" >
       <header className="App-header">
       <div className="Welcome">
         <h1>EQUANIMITY YOGA</h1>

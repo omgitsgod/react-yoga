@@ -6,6 +6,10 @@
   background-image: url(./schedule.jpeg);
   background-size: cover;
 }
+.prices {
+  background-image: url(./prices.jpg);
+  background-size: cover;
+}
 
 .App {
   text-align: center;

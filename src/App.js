@@ -5,6 +5,7 @@ import Home from './Home'
 import Schedule from './Schedule'
 import Prices from './Prices'
 import Location from './Location'
+import Bio from './Bio.js'
 import { Tab, Tabs, Typography} from '@material-ui/core'
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       view = <Location />
       break
       case "Bio":
-      view = <Home />
+      view = <Bio />
       break
       default:
       view = <Home />

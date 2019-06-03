@@ -8,6 +8,8 @@ function Prices() {
   return (
     <div className="bio" >
       <header className="App-header">
+      <br />
+      <br />
       <div className="Welcome">
       <p><b>Once ridden with eczema on my arms and legs, I asked my mom to purchase a yoga mat for my 15th birthday. I would find myself brushing my teeth in tree pose, a yoga pose I learned from watching Alan
                 Finger and his students on the television show, Yogazone. Yoga healed my eczema by providing me with strategies to deal with stress. At the same time, yoga was a gateway to a living a more spiritual and authentic life. Seventeen
